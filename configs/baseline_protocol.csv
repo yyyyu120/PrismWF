@@ -1,0 +1,11 @@
+method,input_representation,sequence_length,train_batch_size,test_batch_size,optimizer,learning_rate,weight_decay,scheduler,loss,epochs,checkpoint_selection,upstream
+AWF,DIR,3000,256,256,RMSprop,0.0008,0,None,MultiLabelSoftMarginLoss,80,validation MAP@K,https://github.com/DistriNet/DLWF
+DF,DIR,5000,128,256,Adamax,0.002,0,None,MultiLabelSoftMarginLoss,80,validation MAP@K,https://github.com/deep-fingerprinting/df
+Tik-Tok,DT,5000,128,256,Adamax,0.002,0,None,MultiLabelSoftMarginLoss,80,validation MAP@K,https://github.com/msrocean/Tik_Tok
+Var-CNN,DT2,5000,50,256,Adam,0.001,0,None,MultiLabelSoftMarginLoss,80,validation MAP@K,https://github.com/sanjit-bhat/Var-CNN
+RF,TAM,1800,200,256,Adam,0.0005,0,None,MultiLabelSoftMarginLoss,80,validation MAP@K,https://github.com/robust-fingerprinting/RF
+BAPM,DIR,8500,128,256,Adam,0.0005,0,None,MultiLabelSoftMarginLoss,80,validation MAP@K,implemented through WFlib
+TMWF,DIR,30720,80,256,Adam,0.0005,0,None,MultiLabelSoftMarginLoss,80,validation MAP@K,https://github.com/jzx-bupt/TMWF
+ARES,MTAF,8000,512,512,AdamW,0.002,0.01,StepLR(30;0.74),MultiLabelSoftMarginLoss,80,validation MAP@K,https://github.com/Xinhao-Deng/Multitab-WF-Datasets
+CountMamba,WTMC(320s;7200 columns),10000,200,200,AdamW,0.002,0.01,cosine decay,MultiLabelSoftMarginLoss,80,validation MAP@K,see manuscript reference and artifact release
+PrismWF,Robust Trace Representation (6-channel),8000,256,256,AdamW,0.0005,0.01,StepLR(30;0.74),BCEWithLogitsLoss,80,validation MAP@K,this repository

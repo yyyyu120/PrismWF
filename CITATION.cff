@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the PrismWF manuscript."
+title: "PrismWF: A Multi-Granularity Patch-Based Transformer for Robust Website Fingerprinting Attack"
+type: software
+authors:
+  - family-names: Pan
+    given-names: Yuhao
+  - family-names: Xu
+    given-names: Wenchao
+  - family-names: Huo
+    given-names: Fushuo
+  - family-names: Wang
+    given-names: Haozhao
+  - family-names: Wang
+    given-names: Xiucheng
+  - family-names: Cheng
+    given-names: Nan
+repository-code: "https://github.com/yyyyu120/PrismWF"
+license: MIT
+version: 1.0.0
+date-released: 2026-08-20
+preferred-citation:
+  type: article
+  title: "PrismWF: A Multi-Granularity Patch-Based Transformer for Robust Website Fingerprinting Attack"
+  authors:
+    - family-names: Pan
+      given-names: Yuhao
+    - family-names: Xu
+      given-names: Wenchao
+    - family-names: Huo
+      given-names: Fushuo
+    - family-names: Wang
+      given-names: Haozhao
+    - family-names: Wang
+      given-names: Xiucheng
+    - family-names: Cheng
+      given-names: Nan
+  journal: "arXiv preprint arXiv:2603.21117"
+  year: 2026
+  identifiers:
+    - type: url
+      value: "https://arxiv.org/abs/2603.21117"
+      description: "arXiv preprint"

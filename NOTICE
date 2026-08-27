@@ -1,0 +1,15 @@
+PrismWF Artifact
+Copyright (c) 2026 Yuhao Pan and PrismWF contributors
+
+This project includes code adapted from the Website Fingerprinting Library and
+the ARES multi-tab website fingerprinting implementation. The original MIT
+copyright notice is retained in LICENSE.
+
+Upstream projects:
+- https://github.com/Xinhao-Deng/Website-Fingerprinting-Library
+- https://github.com/Xinhao-Deng/Multitab-WF-Datasets
+- https://github.com/websitefingerprinting/wfdef
+- https://github.com/jkhollandjr/PETS_DeTorrent
+
+Third-party baseline implementations are not redistributed in this repository.
+Their upstream sources are listed in docs/BASELINES.md.

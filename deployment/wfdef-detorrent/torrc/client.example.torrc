@@ -1,0 +1,10 @@
+# Replace every value enclosed in angle brackets.
+UseBridges 1
+ClientTransportPlugin detorrent exec <WFDEF_ROOT>/build/obfs4proxy
+Bridge detorrent <BRIDGE_IP>:<PT_PORT> <BRIDGE_FINGERPRINT> cert=<CERT> budget=<BUDGET> generator-addr=127.0.0.1:19991
+
+SocksPort 127.0.0.1:<SOCKS_PORT>
+ControlPort 127.0.0.1:<CONTROL_PORT>
+CookieAuthentication 1
+DataDirectory <CLIENT_DATA_DIRECTORY>
+Log notice file <CLIENT_LOG_PATH>

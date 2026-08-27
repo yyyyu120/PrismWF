@@ -1,0 +1,10 @@
+# Replace every value enclosed in angle brackets.
+BridgeRelay 1
+ORPort <OR_PORT>
+ExtORPort auto
+ServerTransportPlugin detorrent exec <WFDEF_ROOT>/build/obfs4proxy
+ServerTransportListenAddr detorrent 0.0.0.0:<PT_PORT>
+ServerTransportOptions detorrent budget=<BUDGET> generator-addr=127.0.0.1:19991
+
+DataDirectory <BRIDGE_DATA_DIRECTORY>
+Log notice file <BRIDGE_LOG_PATH>

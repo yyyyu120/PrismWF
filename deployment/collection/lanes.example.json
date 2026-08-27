@@ -1,0 +1,11 @@
+[
+  {
+    "name": "lane-00",
+    "socks_host": "127.0.0.1",
+    "socks_port": 19150,
+    "control_host": "127.0.0.1",
+    "control_port": 19151,
+    "control_cookie": "/path/to/lane-00/control_auth_cookie",
+    "pt_log": "/path/to/lane-00/pt_state/obfs4proxy.log"
+  }
+]

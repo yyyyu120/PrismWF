@@ -1,0 +1,1 @@
+{"trace_id":"example-2tab-000001","urls":["https://example.com/","https://www.iana.org/help/example-domains"],"domains":["example.com","iana.org"],"labels":[0,1],"split":"train","repetition":0,"inter_tab_delays_seconds":[5.0],"defense":"null (undefended)","defense_parameters":{}}

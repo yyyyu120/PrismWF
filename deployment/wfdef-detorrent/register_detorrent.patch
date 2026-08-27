@@ -1,0 +1,15 @@
+diff --git a/transports/transports.go b/transports/transports.go
+index e94fd1b..f07c3d1 100644
+--- a/transports/transports.go
++++ b/transports/transports.go
+@@ -33,3 +33,4 @@ import (
+ 	"fmt"
+ 	"github.com/websitefingerprinting/wfdef.git/transports/defconn"
++	"github.com/websitefingerprinting/wfdef.git/transports/detorrent"
+ 	"github.com/websitefingerprinting/wfdef.git/transports/front"
+@@ -97,4 +98,5 @@ func Init() error {
+ 		new(obfs3.Transport),
+ 		new(obfs4.Transport),
+ 		new(scramblesuit.Transport),
++		new(detorrent.Transport),
+ 		new(wfgan.Transport),

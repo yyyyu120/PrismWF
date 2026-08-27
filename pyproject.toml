@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prismwf"
+version = "1.0.0"
+description = "Reproducibility artifact for PrismWF multi-tab website fingerprinting"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+license = {file = "LICENSE"}
+authors = [{name = "Yuhao Pan"}]
+dependencies = [
+  "huggingface_hub>=0.27,<2",
+  "numpy==1.26.4",
+  "scikit-learn==1.7.2",
+  "timm==1.0.19",
+  "torch==2.4.1",
+  "tqdm==4.68.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+collection = ["selenium>=4.20,<5"]
+
+[tool.setuptools.packages.find]
+include = ["prismwf*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
