@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this artifact, please cite the PrismWF manuscript."
+message: "If you use PrismWF, please cite the published TDSC article."
 title: "PrismWF: A Multi-Granularity Patch-Based Transformer for Robust Website Fingerprinting Attack"
 type: software
 authors:
@@ -35,9 +35,12 @@ preferred-citation:
       given-names: Xiucheng
     - family-names: Cheng
       given-names: Nan
-  journal: "arXiv preprint arXiv:2603.21117"
+  journal: "IEEE Transactions on Dependable and Secure Computing"
   year: 2026
+  start: 1
+  end: 16
+  doi: "10.1109/TDSC.2026.3746307"
   identifiers:
-    - type: url
-      value: "https://arxiv.org/abs/2603.21117"
-      description: "arXiv preprint"
+    - type: doi
+      value: "10.1109/TDSC.2026.3746307"
+      description: "Published TDSC article"
